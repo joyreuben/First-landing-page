@@ -1,0 +1,255 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Condiment&family=Montserrat:wght@200;400&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #424242;
+}
+header {
+  top:0;
+  width: 100%;
+  padding: 0 5px;
+ position: fixed;
+  justify-content: space-around;
+  min-height: 75px;
+  
+}
+
+  .topnav {
+  overflow: hidden;
+  background-color: #CFD8DC;
+    
+}
+
+.topnav a {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px ;
+  color:#212121 ;
+  text-align: left;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Montserrat, sans-serif;
+  
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #EFEBE9;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  
+}
+
+
+  ul {
+    list-style: none;
+  }
+
+#header-img {
+  height: 50px;
+  margin:  10px 30px -50px 10px;
+}
+.flora{
+  text-align: center;
+  font-size: 50px;
+  font-family: Montserrat, sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1612017071647-4466ded889b8?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0ODY5MjM3Mw&ixlib=rb-1.2.1&q=85');
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+    height: 45rem;    
+    width: 100%;
+    padding: 0;
+  z-index: -1;
+
+}
+h1 {
+ position: absolute;
+  top: 30%;
+  left: 5%;
+  color: #EEEEEE;
+font-family: 'Send Flowers', cursive;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size:45px;
+    left : 3%;
+    top: 40%;
+    
+  }
+  .flora {
+    background-position: center;
+    background-size: 600px;
+}
+  p 
+  }
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif; 
+}
+p {
+  font-size: 25px;
+  text-align: center;
+  margin: 30px;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  color:#BDBDBD;
+}
+#our-works {
+  height: auto;
+  width: 100%;
+  background-color: white;
+   
+}
+.resp img{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap:
+    padding: 0 4px;
+}
+.coloumn {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 14px;
+}
+.column img {
+  vertical-align: middle;
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+
+}
+@media screen and (max-width: 750px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+    
+  }
+  
+  }
+
+
+label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+   line-height: 18px;
+  font-size: px;
+  font-family: 'Montserrat', sans-serif;
+  
+  }
+input {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  }
+  
+  .container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+  background-color: #E0E0E0;
+    }
+.submit {
+  display: block;
+  width: 100%;
+  margin: 0px;
+  background:  #757575;
+  font-size: 15px;
+  border-radius: 2px;
+  cursor: pointer;
+  height: 40px;
+
+  }
+@media screen and (max-width: 400px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+.container {
+  padding-top: 10px;
+  width: 350px;
+  height: 260px;
+  border: 2px solid  #BDBDBD;
+  border-radius: 4px;
+  }
+  .submit {
+    margin-top: 10px;
+    }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+   
+  }
+  
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 850px;
+    height: 500px;
+    border: 7px solid  #BDBDBD;
+  border-radius: 8px;
+
+  }
+  .column img {
+    padding-left: 0px;
+    padding-right: 0px;
+     }
+  .resp {
+    padding-left: 30px;
+    }
+  
+  label {
+    font-size: 30px;
+    line-height: 30px;
+    }
+  input {
+    height: 65px;
+    }
+  .submit {
+    font-size: 30px;
+    height: 60px;
+    margin-top: 30px;
+    }
+  input 
+  placeholder {
+    font-size: 30px;
+    }
+}
+
+@media (min-width: 480px) {
+  form {
+  padding: 2.5rem;
+  }
+
+  }
